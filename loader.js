@@ -1,6 +1,6 @@
 
 function passwordGen(){
-let passwordLength= 10;
+let passwordLength= 18;
 let char = "ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrst123456789";
 let password = "";
 
