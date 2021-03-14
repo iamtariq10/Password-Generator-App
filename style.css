@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.app{
+/* text-align: center; */
+margin-top: 5rem;
+/* border: 2px solid black; */
+padding: 80px 103px;
+width: 100%;
+margin: 0 auto;
+}
+
+.h2{
+    
+    font-family: monospace;
+    padding: 20px;
+    font-size: 5rem;
+    position: relative;
+    color: tomato;
+    right: 25px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.app input::placeholder{
+    letter-spacing: 5px;
+}
+.app input{
+    inset: 1px 1px 1px red;
+    padding: 10px 10px;
+    width: 100vh;
+    box-shadow:1px 1px 4px black;
+    outline: none;
+    border: none;
+}
+
+.app button{
+    border: none;
+    padding: 10px 23px;
+    margin-top: 10px;
+    width: 50vh;
+    margin-top: 20px;
+    color: white;
+    font-family: monospace;
+    font-size:x-large;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.app button:hover{
+    background-color: rgb(248, 82, 53);
+}
